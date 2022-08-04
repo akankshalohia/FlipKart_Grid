@@ -23,7 +23,7 @@ tweet = []
 images = []
 array_fashion = ['#palazzopants', '#capri', '#oneshouldertop', '#trouser', '#tanktop', '#tubetop', '#satindress','#bodycondress', '#halterneck', '#poloneck', '#bikershort', '#camisole', '#sweatshirt', '#highwaistjeans', '#sharara', '#bellbottom', '#bomberjacket', '#leggings', '#vintageshirt', '#kimonocardigan', '#boilersuit', '#puffsleeves', '#coldshoulder', '#croptop', '#joggers', '#buckethat', '#poloshirt', '#sweatpants', '#rippedjeans', '#kaftandress', '#gown', '#cargopants', '#denimjacket', '#miniskirt', '#bratop', '#ponchos', '#polkadotdress', '#meshtop', '#hoodie', '#pullover', '#stripedshirt', '#jeggings', '#trenchcoat', '#waistcoat', '#blazer', '#offshoulder', '#denimshorts', '#loungewear', '#chinos', '#pencilskirt', '#floraldress', '#dhotipants', '#skaterdress', '#harempants', '#tees', '#dungaree', '#corset', '#peplumtop', '#jumpsuit', '#anarkalidress', '#lehenga', '#maxidress', '#yogapants', '#sherwani', '#sequencedress']
 
-#Image links for the items rest data will be brought through social media. For user input images will will also be fetched
+#Image links for the items rest data will be brought through social media. For user input images will also be fetched
 array_fashion_images = {
     "palazzopants" : ["https://rukminim1.flixcart.com/image/495/594/ked56kw0-0/trouser/u/c/3/free-tdzsp103-black-trendzmy-original-imafv28fq3htgsdd.jpeg?q=50", "https://rukminim1.flixcart.com/image/495/594/kg2l47k0-0/trouser/x/b/5/30-gladly35-34b-gladly-original-imafweafqzksfezk.jpeg?q=50", "https://rukminim1.flixcart.com/image/495/594/kybvo280/trouser/l/u/y/xxl-khadi-palazzo-wakshi-original-imagaha2teuewarq.jpeg?q=50", "https://rukminim1.flixcart.com/image/495/594/k13w4280/trouser/c/f/a/free-chickenplazzoo-kronmenien-original-imafhut7ycermapa.jpeg?q=50", "https://rukminim1.flixcart.com/image/495/594/l0vbukw0/trouser/6/y/o/xl-ac-new-02-areeba-collection-original-imagckc4zzbat5e5.jpeg?q=50"],
     "capri" : ["https://rukminim1.flixcart.com/image/800/960/khwbde80-0/capri/a/j/a/m-stwc-capri-black-pinkaop-sharktribe-original-imafxt68hzugknsa.jpeg?q=50", "https://rukminim1.flixcart.com/image/800/960/k547l3k0/capri/9/y/f/m-af-8010-styleaone-original-imafnuqsfwsfhv3c.jpeg?q=50", "https://rukminim1.flixcart.com/image/800/960/k572gsw0/capri/e/k/8/l-ccombo-02-8013-styleaone-original-imafnxeb2xgtdzmv.jpeg?q=50", "https://rukminim1.flixcart.com/image/800/960/kyrlifk0/capri/d/t/t/-original-imagax6nrzqyjyyg.jpeg?q=50", "https://rukminim1.flixcart.com/image/800/960/krqoknk0/capri/l/v/c/xl-mod-4106-combo31-modeve-original-imag5g3j6ccfkuxz.jpeg?q=50"],
@@ -94,7 +94,7 @@ array_fashion_images = {
 }
 
 # path to the chromedriver.exe file
-path = 'C:/Users/SUBHRAJIT/Downloads/chromedriver_win32/chromedriver.exe'
+path = 'C:/Users/Akanksha/Downloads/chromedriver_win32/chromedriver.exe'
 
 @app.route("/")
 def home():
